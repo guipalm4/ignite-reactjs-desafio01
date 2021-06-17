@@ -1,0 +1,70 @@
+Arguments: 
+  /home/guilhermepalma/.asdf/installs/nodejs/14.16.1/bin/node /home/guilhermepalma/.asdf/installs/nodejs/14.16.1/.npm/bin/yarn
+
+PATH: 
+  /home/guilhermepalma/.asdf/installs/nodejs/14.16.1/.npm/bin:/home/guilhermepalma/.asdf/installs/nodejs/14.16.1/bin:/home/guilhermepalma/bin:/home/guilhermepalma/.sdkman/candidates/gradle/current/bin:/home/guilhermepalma/.zinit/polaris/bin:/home/guilhermepalma/.asdf/shims:/home/guilhermepalma/.asdf/bin:/home/guilhermepalma/.local/bin:/home/guilhermepalma/bin:/opt/gradle/gradle-5.2.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/guilhermepalma/Android/Sdk/emulator:/home/guilhermepalma/Android/Sdk/tools:/home/guilhermepalma/Android/Sdk/tools/bin:/home/guilhermepalma/Android/Sdk/platform-tools:/home/guilhermepalma/ide/android-studio/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: unexpected end of file
+      at Zlib.zlibOnError [as onerror] (zlib.js:181:17)
+
+npm manifest: 
+  {
+    "name": "01-github-explorer",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "dev": "webpack serve",
+      "build": "cross-env NODE_ENV=production webpack",
+      "test": "jest --watchAll"
+    },
+    "dependencies": {
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "react-icons": "^4.2.0"
+    },
+    "devDependencies": {
+      "@babel/cli": "^7.12.10",
+      "@babel/core": "^7.12.10",
+      "@babel/preset-env": "^7.12.11",
+      "@babel/preset-react": "^7.12.10",
+      "@babel/preset-typescript": "^7.12.7",
+      "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
+      "@testing-library/jest-dom": "^5.11.9",
+      "@testing-library/react": "^11.2.5",
+      "@types/react-dom": "^17.0.0",
+      "babel-loader": "^8.2.2",
+      "babel-preset-react-app": "^10.0.0",
+      "cross-env": "^7.0.3",
+      "css-loader": "^5.0.1",
+      "html-webpack-plugin": "^4.5.1",
+      "identity-obj-proxy": "^3.0.0",
+      "jest": "^26.6.3",
+      "node-sass": "^5.0.0",
+      "react-app-polyfill": "^2.0.0",
+      "react-refresh": "^0.9.0",
+      "sass-loader": "^10.1.1",
+      "style-loader": "^2.0.0",
+      "ts-node": "^9.1.1",
+      "typescript": "^4.1.3",
+      "webpack": "^5.17.0",
+      "webpack-cli": "^4.4.0",
+      "webpack-dev-server": "^3.11.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
